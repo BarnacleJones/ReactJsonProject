@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './Components/Nav';
+import Home from './Components/Home';
+import SCP001 from './Components/SCP001';
+import SCP002 from './Components/SCP002';
+import SCP003 from './Components/SCP003';
+import SCP004 from './Components/SCP004';
+import SCP005 from './Components/SCP005';
+import SCP006 from './Components/SCP006';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (    
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Nav />
+      <Routes>        
+        <Route path="/" element={<Home />} />
+        <Route path="/SCP001" element={<SCP001 />} />
+        <Route path="/SCP002" element={<SCP002 />} />
+        <Route path="/SCP003" element={<SCP003 />} />
+        <Route path="/SCP004" element={<SCP004 />} />
+        <Route path="/SCP005" element={<SCP005 />} />
+        <Route path="/SCP006" element={<SCP006 />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
