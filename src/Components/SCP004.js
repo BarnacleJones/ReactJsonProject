@@ -1,6 +1,9 @@
+import SCPFiles from "./Files";
 function SCO004()
 {
-    return(<h1 className="text-area">Welcome SCO004</h1>)
+    return(<div className="text-area">
+    {SCPFiles[2]}        
+</div>)
 }
 
 export default SCO004;

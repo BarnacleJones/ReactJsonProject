@@ -1,7 +1,6 @@
 import './App.css';
 import Nav from './Components/Nav';
 import Home from './Components/Home';
-import SCP001 from './Components/SCP001';
 import SCP002 from './Components/SCP002';
 import SCP003 from './Components/SCP003';
 import SCP004 from './Components/SCP004';
@@ -15,7 +14,6 @@ function App() {
       <Nav />
       <Routes>        
         <Route path="/" element={<Home />} />
-        <Route path="/SCP001" element={<SCP001 />} />
         <Route path="/SCP002" element={<SCP002 />} />
         <Route path="/SCP003" element={<SCP003 />} />
         <Route path="/SCP004" element={<SCP004 />} />

@@ -1,6 +1,9 @@
+import SCPFiles from "./Files";
 function SCP003()
 {
-    return(<h1 className="text-area">Welcome SCP003</h1>)
+    return(<div className="text-area">
+    {SCPFiles[1]}        
+</div>)
 }
 
 export default SCP003;
