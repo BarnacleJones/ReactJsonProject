@@ -2,7 +2,7 @@ import Content from "../scp.json";
 
 const SCPFiles = Content.map(
   (file) => {return(
-    <div key={file.Item} className="border rounded shadow p-3 mb-3">
+    <div key={file.Item} className="container">
       <h1>{file.Item}</h1>    
       <br />
       <h3>Special Containment Procedures:</h3>  
