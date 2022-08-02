@@ -5,7 +5,8 @@ const SCPCards = Content.map(
     <div key={file.Item} className="card" id="cardImage">  
   <img src={file.Image} className="card-img-top" alt="..." />
   <div className="card-body">
-    <h5 className="card-title">{file.Item}</h5>           
+    <h5 className="card-title">{file.Item}</h5>   
+    <h5 className="card-text">TOP SECRET</h5>        
   </div>
 </div>
   )
