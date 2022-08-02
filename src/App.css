@@ -15,10 +15,6 @@
   color: white;
 }
 
-.navbar-brand small {
-  display:block;
-  font-size:14px;
-}
 
 
 @media screen and (max-width: 824px) {

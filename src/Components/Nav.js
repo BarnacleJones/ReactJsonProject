@@ -5,7 +5,7 @@ function Nav()
     return(
         <nav className="navbar navbar-expand-sm navbar-dark fixed-top">
         <div className="container">
-            <h2 className="navbar-brand"><img src="./images/scp-logo.svg" alt="SCP logo" width={100} /><small>SCP Foundation</small></h2> 
+            <h2 className="navbar-brand"><img src="../images/scp_logo.gif" alt="SCP logo" width={70} /></h2> 
             <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>            
