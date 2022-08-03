@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ReactJsonProject/static/css/main.4ee21a43.css",
+    "main.js": "/ReactJsonProject/static/js/main.cf689d14.js",
+    "static/media/background.jpeg": "/ReactJsonProject/static/media/background.f17e2073ed8d795bec2a.jpeg",
+    "index.html": "/ReactJsonProject/index.html",
+    "main.4ee21a43.css.map": "/ReactJsonProject/static/css/main.4ee21a43.css.map",
+    "main.cf689d14.js.map": "/ReactJsonProject/static/js/main.cf689d14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ee21a43.css",
+    "static/js/main.cf689d14.js"
+  ]
+}
