@@ -1,5 +1,5 @@
 body{
-  background-color: grey;
+  background-color: black;
   background-image: url(../public/images/background.jpeg);
   background-size:contain;
   background-position: center;
@@ -13,7 +13,7 @@ body{
   width: 70vw;
   margin: auto;
   border-radius: 5px;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   background-color: #6C757D;
 }
 
@@ -45,6 +45,7 @@ a{
   align-items: center;
   justify-content: center;
   color: white;
+  text-align: center;
   /* opacity: 0.9; */
 }
 .card_area{
@@ -54,14 +55,16 @@ a{
   flex-wrap: wrap;  
   align-items: center;
   justify-content: center;
+  opacity: 0.98;
 }
 
 @media screen and (max-width: 824px) {
 body{
-background-size: cover;
+background-size:auto;
 }
 .text-area{
-  margin-top: 30%;   
+  margin-top: 30%;  
+  opacity: 0.9; 
 }
 
 /* Card images on home screen */
@@ -75,8 +78,7 @@ background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  background-color: #6C757D;
+  background-color: black;
   opacity: 0.9;
 }
 
